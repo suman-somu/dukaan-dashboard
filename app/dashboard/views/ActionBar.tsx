@@ -13,7 +13,7 @@ export default function ActionBar() {
       </span>
       <SearchBar
         text={"Search features, tutorials, etc."}
-        fill={false}
+        fill={true}
         width={"100px"}
       />
       <span className="flex items-center justify-end gap-2">

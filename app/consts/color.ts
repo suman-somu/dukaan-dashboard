@@ -1,0 +1,16 @@
+export const colors = {
+    mainbackground: '#1E2640',
+    darkgray: '#808080',
+    lightgray: '#F2F2F2',
+    black100: '#FFFFFF',
+    black12: '#1A181E',
+    black50: '#808080',
+    black60: '#999999',
+    black90: '#E6E6E6',
+    black95: '#F2F2F2',
+    black98: '#FAFAFA',
+    black30: '#4D4D4D',
+    black85: '#D9D9D9',
+    primary_blue: '#146EB4',
+    secondary_navbar: '#1E2640',
+}

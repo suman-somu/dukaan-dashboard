@@ -1,8 +1,13 @@
+import Link from "next/link"
 
 export default function Home() {
   return (
     <main>
-      <button>Click me</button>
+      <Link href="/dashboard">
+        <button>
+          Click me
+        </button>
+      </Link>
     </main>
   )
 }
