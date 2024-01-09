@@ -23,18 +23,18 @@ export default function LeftSection() {
       <div className="flex flex-col justify-start items-start">
         <LeftProfile />
         <div className="flex flex-col w-full gap-1 my-8">
-          <LeftButton icon={<Home size={20} />} text="Home" />
-          <LeftButton icon={<ClipboardList size={20} />} text="Orders" />
-          <LeftButton icon={<LayoutGrid size={20} />} text="Products" />
-          <LeftButton icon={<Truck size={20} />} text="Delivery" />
-          <LeftButton icon={<Megaphone size={20} />} text="Marketing" />
-          <LeftButton icon={<BarChartBigIcon size={20} />} text="Analytics" />
-          <LeftButton icon={<Banknote size={20} />} text="Payments" />
-          <LeftButton icon={<Navigation size={20} />} text="Tools" />
-          <LeftButton icon={<BadgePercent size={20} />} text="Discount" />
-          <LeftButton icon={<UsersRound size={20} />} text="Audience" />
-          <LeftButton icon={<Palette size={20} />} text="Appearance" />
-          <LeftButton icon={<Zap size={20} />} text="Plugins" />
+          <LeftButton icon={<Home size={20} />} text="Home" selected={false} />
+          <LeftButton icon={<ClipboardList size={20} />} text="Orders" selected={false} />
+          <LeftButton icon={<LayoutGrid size={20} />} text="Products" selected={false} />
+          <LeftButton icon={<Truck size={20} />} text="Delivery" selected={false} />
+          <LeftButton icon={<Megaphone size={20} />} text="Marketing" selected={false} />
+          <LeftButton icon={<BarChartBigIcon size={20} />} text="Analytics" selected={false} />
+          <LeftButton icon={<Banknote size={20} />} text="Payments" selected={true} />
+          <LeftButton icon={<Navigation size={20} />} text="Tools" selected={false} />
+          <LeftButton icon={<BadgePercent size={20} />} text="Discount" selected={false} />
+          <LeftButton icon={<UsersRound size={20} />} text="Audience" selected={false} />
+          <LeftButton icon={<Palette size={20} />} text="Appearance" selected={false} />
+          <LeftButton icon={<Zap size={20} />} text="Plugins" selected={false} />
         </div>
       </div>
       <LeftCredits />
