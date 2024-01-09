@@ -6,7 +6,7 @@ export default function ActionBar() {
   return (
     <div className="w-full py-2 px-8 flex items-center justify-between border-b-2">
       <span className="flex items-center gap-4">
-        <p>Payments</p>
+        <p className="font-normal">Payments</p>
         <p className="flex font-thin text-xs gap-1">
           <HelpCircleIcon className="size-4" /> How it works
         </p>
@@ -14,7 +14,7 @@ export default function ActionBar() {
       <SearchBar
         text={"Search features, tutorials, etc."}
         fill={true}
-        width={"100px"}
+        width={"30%"}
       />
       <span className="flex items-center justify-end gap-2">
         <ActionButton icons={<Megaphone size={18} />} />

@@ -9,9 +9,9 @@ interface SearchBarProps {
 
 export const SearchBar = ({ text, fill, width }: SearchBarProps) => {
     return (
-        <div className={`h-fit w-fit flex items-center justify-star text-[${colors.darkgray}] ${fill ? `bg-[${colors.lightgray}]` : `border-[1px] border-[${colors.darkgray}]`}  py-1 px-2 rounded-md`}>
+        <div className={`h-fit flex items-center justify-start text-[${colors.darkgray}] ${fill ? `bg-[${colors.lightgray}]` : `border-[1px] border-[${colors.darkgray}]`} cursor-pointer py-1 px-2 rounded-md`}style={{ width, minWidth: 100 }}>
             <Search className=" mx-1" />
-            {text && <p className=" text-xs mx-1 mr-5">{text}</p>}
+            {text && <p className=" text-xs mx-1 text-ellipsis">{text}</p>}
         </div>
     )
 }

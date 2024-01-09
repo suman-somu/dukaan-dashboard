@@ -24,7 +24,7 @@ export default function Transaction() {
           <SearchBar
             text={"Search by order ID..."}
             fill={false}
-            width={"100"}
+            width={"15%"}
           />
           <div className="flex gap-2 place-content-center">
             <ActionButton2
