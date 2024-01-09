@@ -35,7 +35,7 @@ export default function Transaction() {
           </div>
 
         </div>
-        <div className="h-96 w-full overflow-auto">
+        <div className="h-96 w-full grow overflow-auto">
           <TableDemo />
         </div>
         <Pagination className="text-[#4D4D4D]">

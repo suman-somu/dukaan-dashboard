@@ -17,8 +17,8 @@ import { colors } from "@/app/consts/color"
 export function TableDemo() {
     return (
         <Table>
-            <TableHeader className={`bg-[#F2F2F2]`}>
-                <TableRow className="text-sm">
+            <TableHeader className={`bg-[#F2F2F2] rounded-lg`}>
+                <TableRow className="text-sm rounded-md">
                     <TableHead >Order ID</TableHead>
                     <TableHead className="flex justify-start items-center">Order Date&nbsp;<ChevronDown className="size-4" /></TableHead>
                     <TableHead className="text-right">Order Amount</TableHead>
