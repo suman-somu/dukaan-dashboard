@@ -17,7 +17,7 @@ export default function Transaction() {
   return (
     <main className="w-full h-full grow flex flex-col gap-4">
       <div className="grid gap-4">
-        <h1 className="text-base font-medium">Transactions | This month</h1>
+        <h1 className="text-base font-medium">Transactions | This Month</h1>
         <span className="flex gap-2">
           <ActionButton3 text="Pending payout (23)" selected={false} />
           <ActionButton3 text="Completed payout (2)" selected={false} />
@@ -25,7 +25,7 @@ export default function Transaction() {
         </span>
       </div>
 
-      <div className="w-full grow flex flex-col justify-between p-2 rounded-md bg-gray-50 shadow-md shadow-gray-200">
+      <div className="w-full grow flex flex-col gap-1 justify-between p-2 pb-4 rounded-md bg-gray-50 shadow-md shadow-gray-200">
         <div className="flex items-center justify-between">
           <SearchBar
             text={"Search by order ID..."}
@@ -42,7 +42,6 @@ export default function Transaction() {
 
         </div>
         <div className="grow bg-neutral-200">
-
         </div>
         <Pagination className="text-[#4D4D4D]">
           <PaginationContent >

@@ -7,10 +7,9 @@ export default function RightSection() {
   return (
     <section className="flex flex-col grow justify-start items-start bg-white text-gray-800">
       <ActionBar />
-      <div className="flex flex-col gap-2 justify-start items-start h-full w-full p-8">
+      <div className="flex flex-col gap-4 justify-start items-start h-full w-full p-6 overflow-auto">
         <Overview />
         <Transaction />
-        
       </div>
     </section>
   );
