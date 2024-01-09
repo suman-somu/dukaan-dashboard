@@ -4,7 +4,7 @@ import { ActionButton } from "../components/DashboardRight/ActionButtons";
 
 export default function ActionBar() {
   return (
-    <div className="w-full py-2 px-8 flex items-center justify-between border-b-[1px]">
+    <div className="w-full py-2 px-8 flex items-center justify-between border-b-2">
       <span className="flex items-center gap-4">
         <p>Payments</p>
         <p className="flex font-thin text-xs gap-1">

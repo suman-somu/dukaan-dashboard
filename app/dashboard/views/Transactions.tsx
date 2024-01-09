@@ -1,6 +1,6 @@
 export default function Transaction () {
     return (
-        <div>Transaction
+        <div className="w-full h-fit bg-neutral-400">Transaction
         </div>
     )
 }
