@@ -17,8 +17,8 @@ export default function ActionBar() {
         width={"100px"}
       />
       <span className="flex items-center justify-end gap-2">
-        <ActionButton icons={<Megaphone size={20} />} />
-        <ActionButton icons={<ChevronDown size={20} />} />
+        <ActionButton icons={<Megaphone size={18} />} />
+        <ActionButton icons={<ChevronDown size={18} />} />
       </span>
     </div>
   );

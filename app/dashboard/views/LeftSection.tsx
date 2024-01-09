@@ -20,7 +20,7 @@ import { colors } from "@/app/consts/color";
 
 export default function LeftSection() {
   return (
-    <section className={`h-full w-56 bg-[${colors.secondary_navbar}] text-[${colors.black100}] p-2 flex flex-col justify-between`}>
+    <section className={`h-full w-56 bg-[#1E2640] text-[#FFFFFF] p-2 flex flex-col justify-between`}>
       <div className="flex flex-col justify-start items-start">
         <LeftProfile />
         <div className="flex flex-col w-full gap-1 my-8">

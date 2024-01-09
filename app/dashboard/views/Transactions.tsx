@@ -12,27 +12,21 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
+import { TableDemo } from "../components/DashboardRight/TableDemo";
 
 export default function Transaction() {
   return (
     <main className="w-full h-full grow flex flex-col gap-4">
-      <div className="grid gap-4">
-        <h1 className="text-base font-medium">Transactions | This Month</h1>
-        <span className="flex gap-2">
-          <ActionButton3 text="Pending payout (23)" selected={false} />
-          <ActionButton3 text="Completed payout (2)" selected={false} />
-          <ActionButton3 text="Refunds (2)" selected={true} />
-        </span>
-      </div>
+      <h1 className="text-base font-medium">Transactions | This Month</h1>
 
-      <div className="w-full grow flex flex-col gap-1 justify-between p-2 pb-4 rounded-md bg-gray-50 shadow-md shadow-gray-200">
+      <div className="w-full grow flex flex-col gap-1 justify-between p-2 rounded-md bg-gray-50 shadow-md shadow-gray-200">
         <div className="flex items-center justify-between">
           <SearchBar
             text={"Search by order ID..."}
             fill={false}
             width={"100"}
           />
-          <div className="flex place-content-center">
+          <div className="flex gap-2 place-content-center">
             <ActionButton2
               text={"Sort"}
               icon={<ArrowUpDown className="size-4" />}
@@ -41,7 +35,8 @@ export default function Transaction() {
           </div>
 
         </div>
-        <div className="grow bg-neutral-200">
+        <div className="h-96 w-full overflow-auto">
+          <TableDemo />
         </div>
         <Pagination className="text-[#4D4D4D]">
           <PaginationContent >
