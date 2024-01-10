@@ -1,12 +1,11 @@
 import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white h-screen w-screen flex justify-center items-center">
       <Link href="/dashboard">
-        <button>
-          Click me
-        </button>
+        <Button variant="default">Go to Dashboard</Button>
       </Link>
     </main>
   )
